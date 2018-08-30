@@ -20,4 +20,4 @@ RUN apk --update add python3 py3-pip openssl ca-certificates git \
     && pip3 install -r /app/requirements.txt && rm /app/requirements.txt \
     && apk del build-deps
 
-CMD /usr/bin/python3 /app/syslog_rcvr.py
+CMD /usr/bin/python3 /app/syslog_agent.py
