@@ -1,0 +1,3 @@
+syslog-rfc5424-parser
+kafka
+requests
