@@ -38,3 +38,4 @@ dockerclient.containers.run(image=config.syslog_agent_sentinel_image,
 
 To see all configuration parameters (incl. defaults) see: [src/config.py](src/config.py).
 
+Image is available on [docker hub](https://hub.docker.com/r/dizz/sentinel_syslog_agent/).
